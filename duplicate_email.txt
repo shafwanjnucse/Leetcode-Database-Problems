@@ -1,0 +1,3 @@
+SELECT email as Email 
+FROM Person 
+having count(id)>1;
